@@ -1,10 +1,7 @@
 const {Observable} = require("rxjs");
 
 const observable = new Observable((suscriber) => {
-suscriber.next(10);
-suscriber.next(11);
-suscriber.next(12);
-suscriber.next(13);
+
 });
 
 const observer = {
